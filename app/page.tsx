@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { Typography, Row, Col, Card } from 'antd';
-import { TrophyOutlined, TeamOutlined, BankOutlined } from '@ant-design/icons';
-import StatCard from '@/components/atoms/StatCard';
+import { Typography, Row, Col, Card } from "antd";
+import { TrophyOutlined, TeamOutlined, BankOutlined } from "@ant-design/icons";
+import StatCard from "@/components/atoms/StatCard";
 
 const { Title, Paragraph } = Typography;
 
@@ -22,7 +22,7 @@ export default function Home() {
             title="Students Placed"
             value="500+"
             description="Successfully placed students"
-            prefix={<TeamOutlined />}
+            // prefix={<TeamOutlined />}
           />
         </Col>
         <Col xs={24} md={8}>
@@ -30,7 +30,7 @@ export default function Home() {
             title="Partner Companies"
             value="100+"
             description="Active corporate partners"
-            prefix={<BankOutlined />}
+            // prefix={<BankOutlined />}
           />
         </Col>
         <Col xs={24} md={8}>
@@ -38,7 +38,7 @@ export default function Home() {
             title="Average Package"
             value="12 LPA"
             description="Average annual package"
-            prefix={<TrophyOutlined />}
+            // prefix={<TrophyOutlined />}
           />
         </Col>
       </Row>
